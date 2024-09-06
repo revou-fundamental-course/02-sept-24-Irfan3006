@@ -1,0 +1,77 @@
+.first-header {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.selection-btn {
+  height: 32px;
+  border: none;
+  border-radius: 8px;
+}
+
+.bg-color-blue {
+  background-color: wheat;
+}
+
+.bg-color-light-blue {
+  background-color: white;
+}
+
+.luas-segitiga-header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0px;
+  background: cadetblue;
+  text-align: center;
+}
+
+.luas-segitiga-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.luas-segitiga-img {
+  height: 300px;
+  width: 300px;
+  background-image: url("../assets/img/triangle.png");
+  background-size: cover;
+  background-position: center;
+  align-self: center;
+}
+
+.luas-segitiga-form-header {
+  text-align: center;
+}
+
+.input-wraper {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-wraper input {
+  width: 65%;
+}
+
+input[type="number"] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.section-aside {
+  display: flex;
+}
+
+.section-aside aside {
+  flex: 1;
+}
